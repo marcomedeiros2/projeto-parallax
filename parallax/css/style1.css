@@ -1,0 +1,117 @@
+/*.caixa1, .caixa2, .caixa3, 
+.caixa4, .caixa5, .caixa6, 
+.caixa7, .caixa8, .caixa9{
+    
+}*/
+
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    height: 100%;
+}
+
+.container-conteudo {
+    padding: 30px;
+    text-align: justify;
+}
+
+.container-conteudo>h3 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
+.caixa1, .caixa2, .caixa3, 
+.caixa4, .caixa5, .caixa6, 
+.caixa7, .caixa8, .caixa9{
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.caixa1 {
+    background-image: url(../imagens/imagem1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-caixa1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.container-caixa2, .container-caixa3, .container-caixa4, .container-caixa5,
+.container-caixa6,.container-caixa7,.container-caixa8,.container-caixa9 {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.paragrafo-1 {
+    background-color: rgb(167, 156, 156);
+    padding: 20px;
+    font-size: 26px;
+    letter-spacing: 10px;
+    display: inline;
+}
+
+.paragrafo-caixa {
+    background-color: rgb(167, 156, 156);
+    padding: 20px;
+    font-size: 26px;
+    letter-spacing: 10px;
+    display: inline;
+}
+
+.caixa2 {
+    background-image: url(../imagens/imagem2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa3 {
+    background-image: url(../imagens/imagem3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa4 {
+    background-image: url(../imagens/imagem4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa5 {
+    background-image: url(../imagens/imagem5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa6 {
+    background-image: url(../imagens/imagem6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa7 {
+    background-image: url(../imagens/imagem7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa8 {
+    background-image: url(../imagens/imagem8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa9 {
+    background-image: url(../imagens/imagem9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
